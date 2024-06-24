@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set the minimum height of the body to 100% of the viewport height */
+    margin: 0;
+}
+.header {
+background-color:beige;
+font-family:'Lucida Sans';
+padding-top:10px;
+text-align:center;
+padding-bottom:10px;
+
+}
+.Footer {
+    margin-top:450px;
+    text-align:center;
+    padding-bottom:2px;
+    background-color:beige;
+    height:40px;
+
+
+
+}

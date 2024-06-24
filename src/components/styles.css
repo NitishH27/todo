@@ -1,0 +1,73 @@
+.input{
+    display:flex;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    font-family: 'Neucha',cursive;
+    
+
+}
+.inputBox{
+    display: flex;
+    border-radius: 50px;
+    padding: 20px 30px;
+    height: 13px;
+    font-size:medium;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: 'Neucha',cursive;
+
+
+}
+
+.submitButton{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 95%;
+    margin-top: 50px;
+    background-image: conic-gradient(  rgb(36, 198, 226) , rgb(23, 155, 196));
+
+}
+.TodoList{
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.TodoItems{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 1px;
+    border-radius: 50px;
+    padding: 2px ;
+    margin-left: 17%;
+    justify-content: space-between;
+
+}
+.todos{
+    display: flex;
+    margin-left: 0%;
+    font-size: x-large;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgba(86, 136, 194, 0.253)20% , rgb(2, 105, 136));
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 50px;
+    padding: 10px ;
+    
+    
+}
+
+.todoDuration {
+    margin-left: auto;
+    padding-right: 10px;
+    color:aliceblue;
+    
+
+}
